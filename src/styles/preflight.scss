@@ -31,6 +31,8 @@ body {
 .btn-nav-main {
   color: var(--primary);
   text-decoration: none;
+
+  transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .btn-main {
@@ -47,5 +49,9 @@ body {
 }
 
 .btn-main:hover {
+  transform: scale(1.1);
+}
+
+.btn-nav-main:hover {
   transform: scale(1.1);
 }
