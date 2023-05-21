@@ -1,0 +1,23 @@
+---
+import PrimaryLayout from '../layouts/PrimaryLayout.astro';
+---
+
+<PrimaryLayout>
+  <div class='h-screen w-screen flex flex-col justify-center items-center'>
+    <h1 class='text-8xl mb-8'>Omega <span>SCP</span></h1>
+    <div class='flex flex-row gap-4'>
+      <a href='#' class='btn-main rounded-full text-lg'>Discord</a>
+      <a href='#' class='btn-main rounded-full text-lg'>Patreon</a>
+      <a href='#' class='btn-main rounded-full text-lg'>Youtube</a>
+    </div>
+  </div>
+</PrimaryLayout>
+
+<style>
+  span {
+    background: linear-gradient(to right, white, var(--accent), var(--accent), var(--accent));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+  }
+</style>
