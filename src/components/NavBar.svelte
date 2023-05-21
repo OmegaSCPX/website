@@ -9,7 +9,7 @@
   <a href="/" class="text-lg rounded-full md:text-xl btn-nav-main"
     >Server Features</a
   >
-  <a href="/" class="text-lg rounded-full md:text-xl btn-nav-main"
+  <a href="/rules" class="text-lg rounded-full md:text-xl btn-nav-main"
     >Server Rules</a
   >
 </div>
