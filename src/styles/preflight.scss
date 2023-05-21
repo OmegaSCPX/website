@@ -19,6 +19,8 @@ body {
   background-blend-mode: overlay;
   scroll-behavior: smooth;
 
+  overflow: hidden;
+
   font-family: 'Kanit';
 }
 
@@ -26,11 +28,15 @@ body {
   color: var(--primary);
 }
 
+.btn-nav-main {
+  color: var(--primary);
+  text-decoration: none;
+}
+
 .btn-main {
   border-color: transparent;
   background-color: var(--primary-btn);
   color: var(--primary);
-
   text-decoration: none;
 
   padding: 15px;

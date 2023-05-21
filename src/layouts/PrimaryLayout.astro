@@ -1,5 +1,7 @@
 ---
 import '../styles/preflight.scss';
+
+import NavBar from '../components/NavBar.svelte';
 ---
 
 <html lang="en">
@@ -11,7 +13,8 @@ import '../styles/preflight.scss';
 		<title>OmegaSCP</title>
 	</head>
 	<body>
-    <div class='prose-zinc prose'>
+    <div class='prose prose-zinc'>
+      <NavBar/>
       <slot/>
     </div>
 	</body>
