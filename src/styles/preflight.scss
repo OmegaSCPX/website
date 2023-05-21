@@ -5,6 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './scrollbar.scss';
+
 :root {
   --primary: rgb(239, 254, 236);
   --secondary: rgb(3, 15, 1);
