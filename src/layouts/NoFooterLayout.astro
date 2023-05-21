@@ -1,0 +1,25 @@
+---
+import '../styles/preflight.scss';
+
+const { title } = Astro.props
+
+import NavBar from '../components/NavBar.svelte';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title ?? 'OmegaSCP'}</title>
+	</head>
+	<body>
+    <div class='prose prose-zinc'>
+      <NavBar client:only/>
+      <div class='h-[85dvh]'>
+        <slot/>
+      </div>
+    </div>
+	</body>
+</html>
