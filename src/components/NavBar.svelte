@@ -1,4 +1,4 @@
-<div class='flex flex-row items-center justify-start w-screen gap-4 pt-5 pl-3'>
+<div class='flex flex-row items-center justify-center w-screen gap-4 pt-5 pl-3 md:justify-start'>
   <a href='/' class='text-lg rounded-full btn-nav-main'>Server Features</a>
   <a href='/' class='text-lg rounded-full btn-nav-main'>Server Rules</a>
 </div>
